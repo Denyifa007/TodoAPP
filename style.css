@@ -214,29 +214,30 @@ section {
 
 }
 #taskTitle{
-  width: 23rem;
+  width: 21rem;
   height: 4rem;
   padding: 1rem;
   font-size: 18px;
 }
 .category{
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   gap: 23px;
 
 }
 .category p{
-  margin-top: 17px;
+  margin-top: 10px;
   font-size: 18px;
   font-weight: 600;
 }
 .dateTime{
   display: flex;
-  margin-top: 1.5rem;
-  gap: 10px;
+  margin-top: 1rem;
+  gap: 8px;
 }
 .date #date-1{
+  width: 10rem;
   height: 3rem;
   font-size: 15px;
 }
@@ -248,6 +249,6 @@ section {
   margin-top: 3rem;
 }
 .notes #notes{
-  width: 23rem;
+  width: 22rem;
   height: 9rem;
 }
