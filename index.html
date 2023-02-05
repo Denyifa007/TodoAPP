@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/c317861667.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="page-cont">
+      <header>
+        <p id="todaysDate"></p>
+        <h1>My Todo List</h1>
+        <div class="svgImg">
+          <img src="./image/Ellipse 1.png" class="svg1" />
+          <img src="./image/Ellipse 2.png" class="svg2" />
+        </div>
+      </header>
+      <main>
+        <section>
+          <div class="listCont">
+            <i class="icon far fa-list-alt icon-note"></i>
+            <div class="icon-flex">
+              <label for="study">Study Lesson</label>
+              <input type="checkbox" class="chechBox" id="study" />
+            </div>
+          </div>
+          <div class="listCont">
+            <i class="icon fas fa-trophy icon-trophy"></i>
+            <div class="icon-flex">
+              <label for="run">Run 5k 4:00pm</label>
+              <input type="checkbox" class="chechBox" id="run" />
+            </div>
+          </div>
+          <div class="listCont">
+            <i class="icon fas fa-calendar-day icon-cal"></i>
+            <div class="icon-flex">
+              <label for="goTo">Go to party 10:00pm</label>
+              <input type="checkbox" class="chechBox" id="goTo" />
+            </div>
+          </div>
+        </section>
+        <p class="completed">Completed</p>
+        <section>
+          <div class="listCont">
+            <i class="icon fas fa-calendar-day icon-cal"></i>
+            <div class="icon-flex">
+              <label for="game">Game meetup</label>
+              <input type="checkbox" class="chechBox" id="game" />
+            </div>
+          </div>
+          <div class="listCont">
+            <i class="icon far fa-list-alt icon-note"></i>
+            <div class="icon-flex">
+              <label for="takeOut">Take out trash</label>
+              <input type="checkbox" class="chechBox" id="takeOut" />
+            </div>
+          </div>
+        </section>
+        <a href="./secondPage.html" class="btn-cont"
+          ><input type="submit" id="addBtn" value="Add New Task"
+        /></a>
+      </main>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
