@@ -242,6 +242,7 @@ section {
   font-size: 15px;
 }
 .time #time-1{
+  width: 10rem;
   height: 3rem;
   font-size: 15px;
 }
@@ -249,6 +250,6 @@ section {
   margin-top: 3rem;
 }
 .notes #notes{
-  width: 22rem;
+  width: 21rem;
   height: 9rem;
 }
