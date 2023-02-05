@@ -100,6 +100,7 @@ section {
   align-items: center;
 }
 
+
 .listCont:last-child {
   border-bottom: none;
 }
@@ -142,6 +143,7 @@ section {
   font-size: 1.5rem;
   margin-right: 10px;
 }
+
 
 .icon-note {
   background-color: #dcedf6;
@@ -237,11 +239,13 @@ section {
   gap: 8px;
 }
 .date #date-1{
+  padding-left: 1rem;
   width: 10rem;
   height: 3rem;
   font-size: 15px;
 }
 .time #time-1{
+  padding-left: 1rem;
   width: 10rem;
   height: 3rem;
   font-size: 15px;
@@ -250,6 +254,8 @@ section {
   margin-top: 3rem;
 }
 .notes #notes{
+  padding-left: 1rem;
+  padding-bottom: 7rem;
   width: 21rem;
   height: 9rem;
 }
